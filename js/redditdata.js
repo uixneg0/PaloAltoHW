@@ -62,7 +62,7 @@ function addButtons(firstId, lastId) {
     let prevPath = `${pathName}?before=${firstId}`;
     let onclickPrev = `onclick=location.href='${prevPath}'`;
     let prev = $(`<button class='previous' ${onclickPrev}></button>`).appendTo(buttonsContainer);
-    $("<span class = 'prev-text'>prev</span>").appendTo(prev);
+    $("<span class = 'previous-text'>previous</span>").appendTo(prev);
 
     let nextPath = `${pathName}?after=${lastId}`;
     let onclickNext = `onclick=location.href='${nextPath}'`;

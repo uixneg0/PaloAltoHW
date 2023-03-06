@@ -1,0 +1,370 @@
+@media (min-width: 1230px) {
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 72px 0px 96px;
+        gap: 40px;
+
+        position: absolute;
+        width: 770px;
+        height: 1200px;
+        left: 415px;
+        top: 0px;
+    }
+
+    .section-heading {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 0px 16px 24px;
+
+        width: 770px;
+        height: 80px;
+
+        /* background gradient */
+
+        background: linear-gradient(90deg, #4D4F48 0%, #000000 100%);
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    h1 {
+        width: 53px;
+        height: 48px;
+
+        /* XL/H1 */
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 48px;
+        /* identical to box height, or 109% */
+
+        display: flex;
+        align-items: center;
+    }
+
+    .card {
+        /* Card */
+
+
+        box-sizing: border-box;
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        width: 770px;
+        height: 176px;
+
+        /* Gray/black */
+
+        background: #000000;
+        /* Gray/medium */
+
+        border: 1px solid #919487;
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .headline {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        font-family: 'Roboto Mono', serif;
+
+        width: 770px;
+        height: 112px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    h4 {
+        width: 722px;
+        height: 64px;
+
+        /* XL/H4 */
+
+        font-family: 'Roboto', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        /* or 133% */
+
+
+        /* Gray/white */
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .dashed-line {
+        /* dashed line */
+
+
+        box-sizing: border-box;
+
+        width: 770px;
+        height: 1px;
+
+        /* Gray/medium */
+
+        border: 1px dashed #919487;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .lower {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 23px 24px 24px;
+        gap: 16px;
+
+        width: 770px;
+        height: 63px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .comment-count {
+        /* Small Text lorem ipsum */
+
+
+        width: 561px;
+        height: 16px;
+
+        /* XL/Small Text */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        /* identical to box height, or 114% */
+
+        display: flex;
+        align-items: center;
+
+        /* Accent/bright */
+
+        color: #C9F746;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .submitted-by {
+        /* Small Text lorem ipsum */
+
+
+        width: 145px;
+        height: 16px;
+
+        /* XL/Small Text */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        /* identical to box height, or 114% */
+
+        display: flex;
+        align-items: center;
+
+        /* Gray/medium */
+
+        color: #919487;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .buttons {
+        /* buttons */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+
+        width: 770px;
+        height: 48px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 5;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .previous {
+        /* Button */
+        box-sizing: border-box;
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+
+        width: 109px;
+        height: 48px;
+
+        /* Gray/dark */
+
+        border: 1px solid #4D4F48;
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        background-color: #000000;
+    }
+
+    .previous-text {
+        /* button text */
+
+
+        width: 77px;
+        height: 16px;
+
+        font-family: 'Roboto Mono', ui-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Gray/dark */
+
+        color: #4D4F48;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .next {
+        /* Button */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+
+        width: 71px;
+        height: 48px;
+
+        /* Accent/bright */
+
+        background: #C9F746;
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .next-text {
+        /* button text */
+
+
+        width: 39px;
+        height: 16px;
+
+        font-family: 'Roboto Mono', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Gray/black */
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}

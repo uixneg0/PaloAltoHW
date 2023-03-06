@@ -1,0 +1,410 @@
+@media (min-width: 992px) and (max-width: 1229px) {
+    .column {
+        /* column */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 64px 0px 80px;
+        gap: 40px;
+
+        position: absolute;
+        width: 610px;
+        height: 984px;
+        left: 207px;
+        top: 0px;
+    }
+
+    .section-heading {
+        /* Section Heading */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px 0px 8px 16px;
+
+        width: 610px;
+        height: 56px;
+
+        /* background gradient */
+
+        background: linear-gradient(90deg, #4D4F48 0%, #000000 100%);
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    h1 {
+        /* H1 */
+
+
+        width: 41px;
+        height: 40px;
+
+        /* LMSXS/H1 */
+
+        font-family: 'Roboto Mono', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 40px;
+        /* identical to box height, or 118% */
+
+        display: flex;
+        align-items: center;
+
+        /* Gray/white */
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .card {
+        /* Card */
+
+
+        box-sizing: border-box;
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        width: 610px;
+        height: 128px;
+
+        /* Gray/black */
+
+        background: #000000;
+        /* Gray/medium */
+
+        border: 1px solid #919487;
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .headline {
+        /* headline */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+
+        width: 610px;
+        height: 80px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    h4 {
+        /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. */
+
+
+        width: 578px;
+        height: 48px;
+
+        /* LMSXS/H4 */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 24px;
+        /* or 114% */
+
+
+        /* Gray/white */
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .dashed-line {
+        /* dashed line */
+
+
+        box-sizing: border-box;
+
+        width: 610px;
+        height: 1px;
+
+        /* Gray/medium */
+
+        border: 1px dashed #919487;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .lower {
+        /* lower */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 15px 16px 16px;
+        gap: 16px;
+
+        width: 610px;
+        height: 47px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .comment-count {
+        /* Small Text lorem ipsum */
+
+
+        width: 437px;
+        height: 16px;
+
+        /* LMSXS/Small Text */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+
+        display: flex;
+        align-items: center;
+
+        /* Accent/bright */
+
+        color: #C9F746;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .submitted-by {
+        /* Small Text lorem ipsum */
+
+
+        width: 125px;
+        height: 16px;
+
+        /* LMSXS/Small Text */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+
+        display: flex;
+        align-items: center;
+
+        /* Gray/medium */
+
+        color: #919487;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .buttons {
+        /* buttons */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+
+        width: 610px;
+        height: 48px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 5;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .previous {
+        /* Button */
+
+
+        box-sizing: border-box;
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+
+        width: 109px;
+        height: 48px;
+
+        /* Gray/dark */
+
+        border: 1px solid #4D4F48;
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .previous-text {
+        /* button text */
+
+
+        width: 77px;
+        height: 16px;
+
+        font-family: 'Roboto Mono', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Gray/dark */
+
+        color: #4D4F48;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .next {
+        /* Button */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 10px;
+
+        width: 71px;
+        height: 48px;
+
+        /* Accent/bright */
+
+        background: #C9F746;
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .next-text {
+        /* button text */
+
+
+        width: 39px;
+        height: 16px;
+
+        font-family: 'Roboto Mono', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Gray/black */
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}
